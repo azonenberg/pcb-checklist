@@ -28,6 +28,7 @@ off as invalid.
 * Current-sense resistors on power rails after regulator output caps, not in switching loop
 * Remote sense used on low voltage or high current rails
 * Linear regulators are stable with selected output cap ESR
+* Confirm power rail sequencing against device datasheets
 
 ### Decoupling
 * Decoupling present for all ICs
@@ -38,3 +39,55 @@ off as invalid.
 * All power inputs fed by correct voltage
 * Check high-power discrete semiconductors and passives to confirm they can handle expected load
 * Analog rails filtered/isolated from digital circuitry as needed
+
+
+## Signals
+
+### Digital
+
+* Signals are correct logic level for input pin
+* Pullups on all open-drain outputs
+* Pulldowns on all PECL outputs
+* Termination on all high-speed signals
+* AC coupling caps on gigabit transceivers
+* TX/RX paired correctly for UART, SPI, MGT, etc
+* Differential pair polarity correct
+* Active high/low enable signal polarity correct
+
+### Analog
+
+* RC time constant for attenuators sane given ADC sampling frequency
+* Verify frequency response of RF components across entire operating range. Don't assume a "1-100 MHz" amplifier has the
+same gain across the whole range.
+
+### Clocks
+
+* All oscillators meet required jitter / frequency tolerance
+* Correct load caps provided for discrete crystals
+* Crystals only used if IC has an integrated crystal driver\
+
+### Strap/init pins
+* Pullup/pulldowns on all signals that need defined state at boot
+* Strap pins connected to correct rail for desired state
+* JTAG/ICSP connector provided for all programmable devices
+* Config/boot flash provided for all FPGAs or MPUs without internal flash
+* Reference resistors correct value and reference rail
+
+### External interface protection
+
+* Power outputs (USB etc) current limited
+* ESD protection on data lines going off board
+
+### Debugging / reworkability
+
+* Use 0-ohm resistors vs direct hard-wiring for strap pins when possible
+* Provide multiple ground clips/points for scope probes
+* Dedicated ground in close proximity to analog test points
+* Test points on all power rails
+* Test points on interesting signals which may need probing for bringup/debug
+
+## Thermal
+
+* Power estimates for all large / high power ICs
+* Thermal calculationsfor all large / high power ICs
+* Specify heatsinks as needed
