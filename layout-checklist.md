@@ -70,3 +70,36 @@ bending stress
 * Clearance provided around solder-in test points for probe tips
 
 ## Thermal
+
+* Thermal reliefs used for plane connections (unless via is used for heatsinking)
+* Solid connections used to planes if heatsinking
+* Ensure thermal balance on SMT chip components to minimize risk of tombstoning
+
+## Solder paste
+
+* No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
+* QFN paste prints segmented
+* Small pads 100% size, larger pads reduced to avoid excessive solder volume
+
+## Solder mask
+
+* Confirm SMD vs NSMD pad geometry
+* Adequate clearance around pads (typ. 50 um)
+
+## Silkscreen
+
+* Text size within fab limits
+* Text not overlapping drills or component pads
+* Text removed entirely in, or moved outside of, high component/via density areas
+* Traceability markings (rev, date, name, etc) provided
+* Silkscreen box provided for writing/sticking serial number
+* Text mirrored properly on bottom layer
+
+## Flex specific
+* Components oriented to reduce bending forces
+* Teardrops on all wire-to-pad connections
+
+## CAM production
+* KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
+* Export gerber/drill files at the same time to ensure consistency
+* Visually verify final CAM files to ensure no obvious misalignments
