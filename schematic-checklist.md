@@ -40,7 +40,6 @@ off as invalid.
 * Check high-power discrete semiconductors and passives to confirm they can handle expected load
 * Analog rails filtered/isolated from digital circuitry as needed
 
-
 ## Signals
 
 ### Digital
@@ -51,8 +50,9 @@ off as invalid.
 * Termination on all high-speed signals
 * AC coupling caps on gigabit transceivers
 * TX/RX paired correctly for UART, SPI, MGT, etc
-* Differential pair polarity correct
+* Differential pair polarity / pairing correct
 * Active high/low enable signal polarity correct
+* I/O banking rules met on FPGAs etc
 
 ### Analog
 
@@ -64,7 +64,8 @@ same gain across the whole range.
 
 * All oscillators meet required jitter / frequency tolerance
 * Correct load caps provided for discrete crystals
-* Crystals only used if IC has an integrated crystal driver\
+* Crystals only used if IC has an integrated crystal driver
+* Banking / clock capable input rules met for clocks going to FPGAs
 
 ### Strap/init pins
 * Pullup/pulldowns on all signals that need defined state at boot
