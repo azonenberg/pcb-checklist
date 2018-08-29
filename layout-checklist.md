@@ -20,7 +20,7 @@
 * If panelizing, add panel location indicators for identifying location-specific reflow issues
 * (recommended) Layer number markers specified to ensure correct assembly
 * Fiducials present (on both sides of board) if targeting automated assembly
-* Fiducial pattern asymmetric to detect rotated boards
+* Fiducial pattern asymmetric to detect rotated or flipped boards
 * Soldermask/copper clearance on fiducials respected
 * Panelization specified if required
 
