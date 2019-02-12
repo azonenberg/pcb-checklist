@@ -62,7 +62,7 @@ same gain across the whole range.
 
 ### Clocks
 
-* [ ] All oscillators meet required jitter / frequency tolerance
+* [ ] All oscillators meet required jitter / frequency tolerance. Be extra cautious with MEMS oscillators as these tend to have higher jitter.
 * [ ] Correct load caps provided for discrete crystals
 * [ ] Crystals only used if IC has an integrated crystal driver
 * [ ] Banking / clock capable input rules met for clocks going to FPGAs
@@ -92,3 +92,4 @@ same gain across the whole range.
 * [ ] Power estimates for all large / high power ICs
 * [ ] Thermal calculations for all large / high power ICs
 * [ ] Specify heatsinks as needed
+
