@@ -30,6 +30,7 @@ off as invalid.
 * [ ] Remote sense used on low voltage or high current rails
 * [ ] Linear regulators are stable with selected output cap ESR
 * [ ] Confirm power rail sequencing against device datasheets
+* [ ] Reverse current protection diode (if required)
 
 ### Decoupling
 * [ ] Decoupling present for all ICs
