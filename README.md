@@ -19,7 +19,7 @@ New checklist suggestions, or organizational tweaks, are welcome.
 
 ## Project flow diagram
 
-![Flow Diagram](Flow Diagram.png)
+[Flow Diagram](./Flow_Diagram.png)
 
-![Flow Diagram High Resolution](Flow Diagram.png)
+[Flow Diagram High Resolution](./Flow_Diagram_hires.png)
 
