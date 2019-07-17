@@ -56,6 +56,7 @@
 * [ ] Consider microphone effect on MLCCs if near strong sound sources
 
 ## Mechanical
+* [ ] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
 * [ ] LEDs, buttons, and other UI elements on outward-facing side of board
 * [ ] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
 * [ ] Stress-sensitive components (MLCC) sufficiently clear from V-score or mouse bite locations, and oriented to reduce
