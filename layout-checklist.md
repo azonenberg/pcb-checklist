@@ -81,6 +81,7 @@ bending stress
 * [ ] No uncapped vias in pads (except low-power QFNs where some voiding is acceptable)
 * [ ] QFN paste prints segmented
 * [ ] Small pads 100% size, larger pads reduced to avoid excessive solder volume
+* [ ] No paste apertures on card edge connectors or test points
 
 ## Solder mask
 
