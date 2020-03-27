@@ -27,6 +27,7 @@
 ## Footprints
 
 * [ ] Confirm components are available in the selected package
+* [ ] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
 * [ ] Verify schematic symbol matches the selected package
 * [ ] Confirm pinout diagram is from top vs bottom of package
 * [ ] (recommended) PCB printed 1:1 on paper and checked against physical parts
