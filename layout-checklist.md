@@ -15,6 +15,7 @@
 * [ ] All design rules within manufacturer's capability
 * [ ] Minimize use of vias/traces that push fab limits
 * [ ] Controlled impedance specified in fab notes if applicable
+* [ ] Confirm impedance calculations include soldermask, or mask removed from RF traces
 * [ ] Stackup verified with manufacturer and specified in fab notes
 * [ ] Board finish specified in fab notes
 * [ ] If panelizing, add panel location indicators for identifying location-specific reflow issues
