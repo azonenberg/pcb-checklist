@@ -98,6 +98,7 @@ bending stress
 * [ ] Traceability markings (rev, date, name, etc) provided
 * [ ] Silkscreen box provided for writing/sticking serial number
 * [ ] Text mirrored properly on bottom layer
+* [ ] Test points labeled if space permits
 
 ## Flex specific
 * [ ] Components oriented to reduce bending forces
