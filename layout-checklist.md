@@ -52,10 +52,13 @@
 * [ ] Minimal slots in planes from via antipads
 * [ ] Sufficient width for planes/traces for required current
 
+
 ## Sensitive analog
 * [ ] Guard ring / EMI cages provided if needed
 * [ ] Physically separated from high current SMPS or other noise sources
 * [ ] Consider microphone effect on MLCCs if near strong sound sources
+* [ ] Feedback track for resitive divider for power converter IC routed after the last filter capacitor. Avoid routing from the Inductor pad connected at SW node of the IC which also has same net name as the last filter capacitor.
+
 
 ## Mechanical
 * [ ] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
