@@ -56,6 +56,8 @@
 * [ ] Guard ring / EMI cages provided if needed
 * [ ] Physically separated from high current SMPS or other noise sources
 * [ ] Consider microphone effect on MLCCs if near strong sound sources
+* [ ] The track for feedback resistor network used in DC-DC voltage regulator/converter IC to be routed from the last filter capacitor. Avoid routing from the inductor pad which also has the same net name.
+* [ ] Guard ring around crystal oscillator crystals for MCU's and MPU's. ([refer](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf) page 46/47).
 
 ## Mechanical
 * [ ] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
