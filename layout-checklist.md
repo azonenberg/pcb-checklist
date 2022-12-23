@@ -47,6 +47,7 @@
 * [ ] Minimize crossing reference plane splits/slots or changing layers, use caps/stitching vias if unavoidable
 * [ ] Confirm fab can do copper to edge of PCB for edge launch connectors
 * [ ] Double-check pad width on connectors and add plane cutouts if needed to minimize impedance discontinuities
+* [ ] Add stitching vias to ground plane in large top layer ground pads (SMA etc) to avoid resonances
 
 ## Power
 * [ ] Minimal slots in planes from via antipads
