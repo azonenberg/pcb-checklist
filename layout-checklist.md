@@ -8,7 +8,7 @@
 ## Decoupling
 
 * [ ] Decoupling caps as close to power pins as possible
-* [ ] Low inductance mounting used for decoupling (prefer ViP if available, otherwise "[]8" shaped side vias
+* [ ] Low inductance mounting used for decoupling (prefer ViP if available, otherwise "[]8" shaped side vias)
 
 ## DFM / yield enhancement
 
