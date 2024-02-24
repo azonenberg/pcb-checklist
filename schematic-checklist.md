@@ -8,6 +8,7 @@ off as invalid.
 * [ ] Schematic symbol matches chosen component package
 * [ ] Thermal pads are connected to correct power rail (may not always be ground)
 * [ ] Debug interfaces are not power gated in sleep mode
+* [ ] Verify pinning of all cables to other boards in the system (straight through vs mirror)
 
 ## Passive components
 * [ ] Power/voltage/tolerance ratings specified as required
