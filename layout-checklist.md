@@ -72,6 +72,7 @@ bending stress
 * [ ] Verify mounting hole connection/isolation
 * [ ] Components not physically overlapping/colliding
 * [ ] Clearance provided around solder-in test points for probe tips
+* [ ] Mounting hole positions compatible with enclosure design rules (keepouts around bends/welds etc respected)
 
 ## Thermal
 
