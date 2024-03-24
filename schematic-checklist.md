@@ -41,6 +41,10 @@ off as invalid.
 * [ ] Check high-power discrete semiconductors and passives to confirm they can handle expected load
 * [ ] Analog rails filtered/isolated from digital circuitry as needed
 
+### Errata
+* [ ] Read errata sheets (if available) for all major devices
+* [ ] STM32: do not use JTRST pin as an I/O
+
 ## Signals
 
 ### Digital
