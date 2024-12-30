@@ -31,6 +31,7 @@
 * [ ] Confirm components (especially connectors and power regulators) are capable of desired current in the selected package
 * [ ] Verify schematic symbol matches the selected package
 * [ ] Confirm pinout diagram is from top vs bottom of package
+* [ ] FPC connectors: Verify top/bottom entry and validate pinout
 * [ ] (recommended) PCB printed 1:1 on paper and checked against physical parts
 * [ ] 3D models obtained (if available) and checked against footprints
 * [ ] Soldermask apertures on all SMT lands and PTH pads
