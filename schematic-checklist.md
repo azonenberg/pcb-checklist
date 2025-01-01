@@ -57,6 +57,7 @@ off as invalid.
 * [ ] AC coupling caps on gigabit transceivers
 * [ ] TX/RX paired correctly for UART, SPI, MGT, etc
 * [ ] Differential pair polarity / pairing correct
+* [ ] The DQS pairs of DDRx memory interfaces are routed to DQS pins that can be used for the corresponding DQ byte lanes
 * [ ] Active high/low enable signal polarity correct
 * [ ] I/O banking rules met on FPGAs etc
 * [ ] When using auto-sensing level shifters, ensure the intended receiver doesn't have a pullup/down
